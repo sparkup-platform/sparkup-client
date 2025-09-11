@@ -40,7 +40,7 @@
 
 ```
 
-├─app/                    # Next.js App Router
+┌─app/                    # Next.js App Router
 │   ├── (auth)/            # 로그인/회원가입 페이지
 │   ├── (main)/            # 메인 서비스 페이지
 │   │   ├── ideas/         # 아이디어 관련 페이지
@@ -59,13 +59,13 @@
 │   ├── user/            # 사용자 도메인
 │   ├── auth/            # 인증 도메인
 │   └── search/          # 검색 도메인
-└── shared/              # 공유 유틸리티
-├── lib/             # 라이브러리 설정 (axios, react-query 등)
-├── hooks/           # 공통 훅
-├── utils/           # 유틸 함수
-├── constants/       # 상수 정의
-└── types/           # 글로벌 타입
-
+├── shared/              # 공유 유틸리티
+│   ├── lib/             # 라이브러리 설정 (axios, react-query 등)
+│   ├── hooks/           # 공통 훅
+│   ├── utils/           # 유틸 함수
+│   ├── constants/       # 상수 정의
+│   └── types/           # 글로벌 타입
+└── styles
 ```
 
 </details>
