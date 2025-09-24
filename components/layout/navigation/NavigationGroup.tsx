@@ -16,7 +16,6 @@ export default function NavigationGroup({group} : NavigationGroupProps){
                 <NavigationButton key={e.id} label={e.label} href={e.href} icon={e.icon}/>
             ))}        
             </li>
-        
         </div>
     )
 }
