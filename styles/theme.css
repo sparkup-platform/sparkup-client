@@ -14,6 +14,7 @@
     --color-accent: #f4f4f5;
     --color-border: #e4e4e7;
     --color-destructive: #ef4444;
+    --color-border :  #d4d4d8;
 
     /* 오렌지 팔레트 */
     --orange-50: #fff7ed;
@@ -106,7 +107,8 @@
   .text-primary { color: var(--color-primary); }
   .text-foreground { color: var(--color-foreground); }
   .text-muted-foreground { color: var(--color-muted-foreground); }
-  
+  .text-neutral {color: var(--neutral-100)}
+
   .border-border { border-color: var(--color-border); }
 
   /* 오렌지 팔레트 클래스 */
