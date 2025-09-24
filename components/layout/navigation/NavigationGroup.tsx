@@ -13,7 +13,7 @@ export default function NavigationGroup({group} : NavigationGroupProps){
             <h3 className="text-base">{group.title}</h3>
             <li className="pt-[10px] flex flex-col w-[100%] gap-1">
             {group.items.map((e)=>(
-                <NavigationButton key={e.id} label={e.label} href={e.href} icon={e.icon}/>
+                <NavigationButton key={e.id} label={e.label} href={e.href} icon={e.icon} id={e.id}/>
             ))}        
             </li>
         </div>
