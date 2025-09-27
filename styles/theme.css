@@ -109,7 +109,7 @@
   .text-muted-foreground { color: var(--color-muted-foreground); }
   .text-neutral {color: var(--neutral-100)}
 
-  .border-border { border-color: var(--color-border); }
+  .border-border-color { border-color: var(--color-border); }
 
   /* 오렌지 팔레트 클래스 */
   .bg-orange-50 { background-color: var(--orange-50); }
