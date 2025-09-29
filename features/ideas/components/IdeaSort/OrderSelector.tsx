@@ -3,11 +3,11 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 export function OrderSelector(){
     return(
         <>
-            <Select>
+            <Select defaultValue="최신순">
                 <SelectTrigger className="border-border-color">
                     <SelectValue placeholder="최신순" />
                 </SelectTrigger>
-                <SelectContent className="border-border-color w-[50px]">
+                <SelectContent  className="border-border-color w-[50px] bg-background">
                     <SelectItem value="최신순" >최신순</SelectItem>
                     <SelectItem value="좋아요순">인기순</SelectItem>
                     <SelectItem value="댓글순">댓글순</SelectItem>
