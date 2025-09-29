@@ -1,8 +1,12 @@
+import IdeaPageHeader from "@/features/ideas/components/IdeaPageHeader"
+import IdeaList from "@/features/ideas/components/IdeaList"
+
 export default function Home() {
 
     return(
         <div className="h-[150vh]">
-            안녕 난 홈페이지야
+            <IdeaPageHeader/>
+            <IdeaList/>
         </div>
     )
   }
