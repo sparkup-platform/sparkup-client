@@ -4,7 +4,7 @@
 @layer base {
   :root {
     /* 스파크업 테마 색상 (라이트 모드) */
-    --color-primary: #f97316;
+    --color-primary: #fb923c;;
     --color-secondary: #f4f4f5;
     --color-background: #ffffff;
     --color-foreground: #18181b;
