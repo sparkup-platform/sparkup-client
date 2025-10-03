@@ -17,7 +17,7 @@ export default function IdeaDescription() {
 
   return (
 
-      <main className="w-[85%] mx-auto px-6 py-8">
+      <main className="w-[85%] mx-auto my-8">
         {/* 메인 카드 */}
         <article className="bg-white rounded-2xl border border-border-color overflow-hidden mb-6">
           {/* 카드 헤더 */}
