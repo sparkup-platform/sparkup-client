@@ -29,7 +29,7 @@ export default function IdeaCard() {
                 <span>❤️ 23</span>
                 <span>💬 8</span>
             </div>
-            <Button><Link href="/projects">아이디어 참여</Link></Button>
+            <Button><Link href="/idea/sd">아이디어 참여</Link></Button>
         </footer>
     </div>
     )
