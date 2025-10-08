@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Heart, MessageCircle, Calendar, Eye, Share2, Bookmark } from 'lucide-react';
+import { Heart, MessageCircle, Calendar, Eye } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 export default function IdeaDescription() {
