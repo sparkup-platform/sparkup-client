@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { ThumbsUp } from "lucide-react";
+import { CommentReplyInput, CommentReplyList, CommentReplyCard } from "../CommentReply";
 
 export function IdeaCommentCard(){
 
@@ -19,7 +20,7 @@ export function IdeaCommentCard(){
     }
 
     return(
-        <div className="w-[100%] p-10 flex gap-5">
+        <div className="w-fit m-8 pb-10 flex gap-5 border-b border-border-color">
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white font-semibold flex-shrink-0">
                  익
             </div>
@@ -36,11 +37,12 @@ export function IdeaCommentCard(){
                         <ThumbsUp className={`w-5 h-5 ${isLiked ? 'text-[var(--info)] fill-current' : ''}`}/>
                         <span className={`${isLiked ? 'text-[var(--info)] font-semibold' : ''}`}>{likeCount}</span>
                     </button>
-                    <button onClick={handleRecomment} className="text-s cursor-pointer" >
-                        {openRecomment ? <>답들 닫기</> : <>답글 작성</>}
+                    <button onClick={handleRecomment} className="text-s text-muted-foreground cursor-pointer" >
+                        {openRecomment ? <>답글 닫기</> : <>답글 작성</>}
                     </button>
                 </div>
-                
+                {openRecomment ? <CommentReplyInput/> : null}
+                <CommentReplyList/>
             </div>
         </div>
     )
